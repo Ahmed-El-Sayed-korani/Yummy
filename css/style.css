@@ -1,0 +1,135 @@
+
+
+body {
+
+    background-color: rgb(13, 13, 13);
+}
+
+
+.nav-bar  {
+    width: 24%;
+    z-index: 999;
+    left: -258px;
+}
+
+.nav-bar .nav-content {
+    background-color: rgb(13, 13, 13);
+    color: rgb(249, 246, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.nav-bar .nav-content .nav a {
+    text-decoration: none;
+    color: rgb(249, 246, 246);
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.nav-bar i {
+    padding: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+.nav-style img {
+    width: 70px;
+    
+}
+
+.card   {
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+.card-igred {
+    overflow: hidden;
+    border: none;
+    height: 228px;
+    cursor: pointer;
+
+}
+
+.card img {
+    position: relative;
+    cursor: pointer;
+}
+
+.card i {
+    
+    cursor: pointer;
+}
+
+
+.card-img-overlay {
+    background-color: rgba(249, 246, 246, 0.7);
+    color: rgb(13, 13, 13);
+    font-size: 38px;
+    position: absolute;
+    top: 100%;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.card:hover .card-img-overlay {
+    top: 0;
+}
+
+
+
+.card-img-overlay h5 {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-img-overlay p {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input ::placeholder {
+    color: white;
+}
+
+.submit {
+    width: 100px;
+    color: rgb(220, 53, 69);
+    border-color: rgb(220, 53, 69);
+}
+
+
+
+
+#nameAlert {
+    display: none;
+}
+
+#emailAlert {
+    display: none;
+}
+
+#numberAlert {
+    display: none;
+}
+
+
+#ageAlert {
+    display: none;
+}
+
+
+#passwordAlert {
+    display: none;
+}
+
+
+#repasswordAlert {
+    display: none;
+}
+
+
